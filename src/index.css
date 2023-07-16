@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header-container {
+  display: flex;
+  justify-content: center;
+}
+
+.header-ul {
+  font-size: 1.1rem;
+  list-style-type: none;
+  color: white;
+  position: absolute;
+  width: 35%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.landing-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  background: url("Https://source.unsplash.com/random/1920x1080/?neon");
+}
+
+.content-container{
+  width: 80%;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 2fr;
+}
+
+.introduction-text {
+  padding: 10px;
+  color: white;
+}
+
+.title-logo-box {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.img-logo{
+  scale: 2.5;
+}
+
+.title{
+  margin-left: 20px;
+  font-size: 4.5rem;
+  margin:auto 10px;
+}
+
+.img-landing {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 25px;
+  scale: 0.9;
+}
+
+.text-title {
+  font-size: 1.2rem;
+}
